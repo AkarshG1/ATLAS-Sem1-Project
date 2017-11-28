@@ -6,10 +6,10 @@ import serial          # Arduino
 #Authenticate netatmo
 authorization = lnetatmo.ClientAuth(
 									
-									clientId = "5a1d4ef32d3e041e648bb176",
-									clientSecret = "uKQ4uoXxAfciFEvLzpjtkI3qp3r12jfozAiSeOqA6JJxI",
-									username = "a.gopal@student.utwente.nl",
-									password = "Netamo@123",
+									clientId = "Enter CLIENT ID here",
+									clientSecret = "Enter CLIENT SECRET here",
+									username = "Enter your EMAIL ID or USERNAME here",
+									password = "Enter your PASSWORD here",
 									scope = "read_station"
 									)
 
